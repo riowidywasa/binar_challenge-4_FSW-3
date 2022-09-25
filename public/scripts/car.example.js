@@ -40,13 +40,21 @@ class Car {
   }
 
   render() {
-    return `
-      <p>id: <b>${this.id}</b></p>
-      <p>plate: <b>${this.plate}</b></p>
-      <p>manufacture: <b>${this.manufacture}</b></p>
-      <p>model: <b>${this.model}</b></p>
-      <p>available at: <b>${this.availableAt}</b></p>
-      <img src="${this.image}" alt="${this.manufacture}" width="64px">
+
+    return ` 
+    <div class="card" style="width: 22rem">
+      <img src="${this.image}" class="card-img-top img-fluid" alt="${this.manufacture}" style="height: 190px; object-fit: cover" />
+      <div style="padding:28.17px">
+        <p class="judul-card">${this.manufacture} / ${this.model}</p>
+        <h5 class="card-title">Rp.${this.rentPerDay}/Hari</h5>
+        <p class="" style="min-height:100px">${this.description}</p>
+        <div class="my-2"><i class="bi bi-people me-2"></i>${this.capacity} Orang</div>
+        <div class="my-2"><i class="bi bi-gear me-2"></i>${this.transmission}</div>
+        <div class="my-2"><i class="bi bi-calendar4 me-2"></i>${this.year}</div>
+        <div class="my-2"><i class="bi bi-calendar4 me-2"></i>${this.availableAt}</div>
+        <a href="#" class="btn btn-success text-white w-100 mt-2 fw-bold mt-4" style="font-size: 14px">Pilih Mobil</a>      
+      </div>
+    </div>               
     `;
   }
 }
