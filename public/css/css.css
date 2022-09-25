@@ -1,0 +1,428 @@
+   *{
+        margin: 0px;
+        padding: 0px;
+        /* box-sizing: border-box; */
+        /* display: flexbox; */
+    }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+nav{
+    background-image: url("img/bg.png");
+    padding-bottom: 0;
+}
+
+.offcanvas {
+        width: 30%;
+        
+    }
+
+.offcanvas-header{
+padding-bottom: 0;
+}
+
+.offcanvas-body{
+padding-top : 0;
+}
+
+.navbar-judul{
+    padding-top: 15px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.nav-link{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #000000;
+}
+
+.nav-button{
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+background: #5CB85F;
+border-radius: 2px;
+}
+
+
+.header{
+    background-image: url("img/bg.png");
+    min-height: 500px;
+    left: 0px;
+    top: 0px;
+    background: #F1F3FF;
+    padding-top: 130px;
+}
+
+.header-button{
+flex-direction: row;
+margin-bottom: 60px;
+justify-content: center;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+height: 36px;
+background: #5CB85F;
+border-radius: 2px;
+}
+
+.logo{
+font-size: 30px;
+color: dodgerblue;
+font-weight: bold;
+}
+
+.jh1{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.jp{
+    max-width: 488px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+/* .aa{
+    min-width: 50%;
+    min-height: 300px;
+} */
+
+/* @media only screen and (max-width:576px){}
+@media only screen and (min-width:576px){}
+@media only screen and (min-width:768px){}
+@media only screen and (min-width:992px){}
+@media only screen and (min-width:1200px){} */
+
+
+
+
+
+/* content */
+
+.service{
+    padding-top: 80px;
+}
+
+
+
+.ser{
+    /* margin-left: 10%; */
+    max-width: 480px;
+    font-family: 'Helvetica';
+    color: #000000;
+}
+
+.serj{
+    margin-top: 40px;
+    max-width: 468px;
+    min-height: 72px;
+    /* Heading/24/Bold */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+    
+
+}
+
+.serp{
+    max-width: 460px;
+    min-height: 60px;
+
+/* Body/14/Light */
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+}
+
+.serg{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.sergo{
+    top: -110px;
+}
+
+
+/* testimonial */
+.testimonial{
+    font-family: 'Helvetica';
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+    padding-top: 100px;
+}   
+
+ .owl-carousel .item {
+
+    justify-content: center;
+
+}
+
+.testimonial-h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.testimonial-p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.item {
+width: 619px;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 10px;
+    min-height: 270px;
+background: #F1F3FF;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+border-radius: 8px;
+min-height: 280px;
+}
+
+
+.testimonial-foto{
+    max-width: 80px;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 1000px;
+}
+
+.bintang{
+    max-width: 16px;
+}
+
+.testi{
+    padding-top: 12%;
+}
+
+.testi-paragraf{
+    width: 80%;
+}
+
+.testimonial-hasil{
+    max-width: 415px;
+min-height: 80px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+text-align: left;
+padding-top: 10px;
+}
+
+.testimonial-name{
+    flex: none;
+ font-size: 14px;
+font-family: 'Helvetica';
+font-weight: bold;
+text-align: left;
+max-width: 300px;
+}
+
+.kiri,.kanan{
+    background-color: white;
+}
+
+.owl-theme .owl-nav [class*=owl-]{
+    color: #FFF;
+    font-size: 14px;
+    background: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+
+
+
+/* whyUs */
+.whyUs{
+    font-family: 'Helvetica';
+    font-style: normal;
+    color: #000000;
+    padding-top: 100px;
+}
+
+.wj{
+
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+}
+
+.wt{
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+}
+
+.card{
+    width: 268px;
+    min-height: 196px;
+    /* Neutral/02 */
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+}
+
+.cg{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.card-text{
+
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+width: 220px;
+height: 60px;
+/* or 143% */
+}
+
+
+.sewa-mobil{
+    min-height: 326px;  
+    background: #0D28A6;
+    border-radius: 13px;
+    text-align: center;
+    font-family: 'Helvetica';
+}
+
+.sewa-mobil h1{
+min-height: 54px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+color: #FFFFFF;
+}
+
+.sewa-mobil p{
+    max-width: 468px;
+    min-height: 40px;
+/* Body/14/Light */
+
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+/* Neutral/01 */
+color: #FFFFFF;
+}
+
+.sewa-mobil button{
+    padding: 8px 12px 8px 12px;
+min-width: 140px;
+height: 36px;
+background: #5CB85F;
+border-radius: 2px;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+margin-top: 30px;
+}
+
+
+.faq{
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.faq h1{
+min-height: 36px;
+/* Heading/24/Bold */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+color: #000000;
+}
+
+.faq p{
+max-width: 368px;
+/* Body/14/Light */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+color: #000000;
+}
+
+.accordion-item{
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    color: #000000;
+}
+
+footer{
+    min-height: 15pc;
+}
+
+
+
+
+
+
