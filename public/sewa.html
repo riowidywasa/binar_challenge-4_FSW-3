@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/sewa.css">
+    <title>Binar Rental</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <header class="header container-fluid ">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-lg my-1 ">
+                <a class="navbar-brand logo" href="#">Binar Rental</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                    aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="navbar-judul">BCR</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-lg-auto mb-2 ms-0">
+                            <li class="nav-item pe-4">
+                                <a class="nav-link active" aria-current="page" href="#ourService">Our Service</a>
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a class="nav-link active" href="#whyus">Why Us</a>
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a class="nav-link active" href="#testimonial">Testimonial</a>
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a class="nav-link active" href="#faq">FAQ</a>
+                            </li>
+                            <li class="nav-item pe-4 my-2 my-lg-0">
+                                <a href="#"><button type="button"
+                                        class="btn btn-success nav-button">Register</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12  mt-lg-5 mt-0">
+                    <div class=" as ">
+                        <h1 class="jh1 mb-xl-3">Sewa & Rental Mobil Terbaik di Kawasan Jakarta </h1>
+                        <p class="jp ">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
+                            terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24
+                            jam</p>
+                        <br>
+                        <a href="/"><button class="btn btn-success header-button">Mulai Sewa Mobil</button></a>
+                    </div>
+                </div>
+                <div class="col-lg-6  col-sm-12  aa">
+                    <img src="./img/shp.png" alt="" class=" tt ">
+                    <img src="./img/Mercedes.png" alt="" class="t ">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-lg justify-content-center my-5">
+        
+        <div class="row d-flex ms-auto me-auto" id="cari">
+                <div class="col-lg col-md-6 col-sm-6 col-xs-12 p-2">
+                    <label class="pb-2">Tipe Driver</label>
+                    <select class="form w-100" id="" required>
+                        <option value="" hidden>Pilih Tipe Driver</option>
+                        <option value="true">Dengan Supir</option>
+                        <option value="true">Tanpa Supir(Lepas Kunci)</option>
+                    </select>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-xs-12 p-2">
+                    <label class="pb-2">Tanggal</label>
+                    <input type="date" id="filterDate" class="form" required />
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-xs-12 p-2" style="min-width: 200px">
+                    <label class="pb-2">Waktu Jemput/Ambil</label>
+                    <input type="time" id="filterTime" class="form" required />
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-xs-12 p-2" style="min-width: 200px">
+                    <label class="pb-2">Jumlah Penumpang</label>
+                    <input type="number" class="form" id="filterCapacity" placeholder="Jumlah Penumpang" />
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-xs-12 p-2 pt-5" style="display: inline-block; align-self: flex-end; height: 100%; min-width: 200px;">
+                    <button class="btn btn-success  header-button " type="button" id="load-btn" style="width: 100px ;">Cari Mobil</button>
+                    
+                </div>
+
+        </div>
+    </section>
+
+
+        <section class="container-lg">
+            <div class="row row-cols-auto justify-content-between ms-auto me-auto d-flex cars-content" id="container-cars">
+                <!-- Data JSON -->
+            </div>
+        </section>
+
+        
+        <script type="text/javascript" src="./scripts/binar.js"></script>
+        <script type="text/javascript" src="./scripts/app.example.js"></script>
+        <script type="text/javascript" src="./scripts/car.example.js"></script>
+        <script type="text/javascript" src="./scripts/main.example.js"></script>
+    </section>
+
+
+
+
+    <!-- footer -->
+    <footer class="container-lg mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-3">
+                <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+                <p>binarcarrental@gmail.com</p>
+                <p>081-233-334-808</p>
+            </div>
+            <div class="col-lg-2 col-md-12">
+                <p>Our Service</p>
+                <p>Why Us</p>
+                <p>Testimonial</p>
+                <p>FAQ</p>
+            </div>
+            <div class="col-lg-3 col-md-12  mb-3">
+                <p>Connect with us</p>
+                <div class="row">
+                    <div class="col-2"><img src="./img/icon_facebook-1.png" alt=""></div>
+                    <div class="col-2"><img src="./img/icon_instagram.png" alt=""></div>
+                    <div class="col-2"><img src="./img/icon_twitter.png" alt=""></div>
+                    <div class="col-2"><img src="./img/icon_mail.png" alt=""></div>
+                    <div class="col-2"><img src="./img/icon_twitter.png" alt=""></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12  mb-3">
+                <p class="">Copyright Binar 2022</p>
+                <a href="#" class="logo">Binar Rental</a>
+            </div>
+        </div>
+        <div></div>
+    </footer>
+
+
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
