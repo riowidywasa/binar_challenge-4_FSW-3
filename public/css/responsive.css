@@ -1,0 +1,202 @@
+@media only screen and (max-width:576px) {
+header{
+    padding-top: 90px !important;
+}
+
+    .t {
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 195px;
+        top: -29px;
+    }
+
+    .tt {
+        position: absolute;
+        width: 150%;
+        height: 113px;
+        top: 85px;
+        z-index: 1;
+    }
+
+    .aa {
+        height: 190px;
+    }
+
+    .jp {
+        min-width: 100%;
+    }
+
+    .service {
+        padding-top: 50px;
+    }
+
+
+    .serj {
+        margin-top: 5%;
+    }
+
+    .card {
+        width: 90%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+
+    .card p {
+        width: 101%;
+    }
+
+    .sewa-mobil-item {
+        padding-left: 19%;
+        padding-right: 19%;
+    }
+
+    .item{
+        width: 95%;
+    }
+
+    .testimonial-foto{
+        margin-top: 40px;
+    }
+
+    .testi{
+        padding-top: 24px;
+    }
+
+    .testi-paragraf{
+    width: 80%;
+}
+
+.offcanvas{
+    max-width: 50%;
+}
+
+
+}
+
+@media only screen and (min-width:576px) {
+header{
+    padding-top: 90px !important;
+}
+
+    .t {
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 257px;
+        top: -29px;
+    }
+
+    .tt {
+        position: absolute;
+        width: 150%;
+        height: 143px;
+        top: 105px;
+        z-index: 1;
+    }
+
+    .aa {
+        height: 240px;
+    }
+
+    .item{
+        width: 98.5%;
+    }
+
+    .offcanvas{
+        width: 20%;
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+    .t {
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 407px;
+        top: -29px;
+    }
+
+    .tt {
+        position: absolute;
+        width: 150%;
+        height: 243px;
+        top: 135px;
+        z-index: 1;
+    }
+
+    .jp{
+        max-width: 70%;
+    }
+
+    .aa {
+        height: 370px;
+    }
+
+    .img-service {
+        min-width: 350px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+header{
+    padding-top: 130px !important;
+}
+
+    .t {
+        z-index: 2;
+        position: absolute;
+        width: 103%;
+        height: 307px;
+        top: 50px;
+    }
+
+    .tt {
+        position: absolute;
+        width: 150%;
+        height: 190px;
+        top: 249px;
+        z-index: 1;
+    }
+
+
+}
+
+@media only screen and (min-width:1200px) {
+    .t {
+        z-index: 2;
+        position: absolute;
+        width: 107%;
+        height: 407px;
+        top: -29px;
+    }
+
+    .tt {
+        position: absolute;
+        width: 150%;
+        height: 243px;
+        top: 135px;
+        z-index: 1;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+    .t {
+        z-index: 2;
+        position: absolute;
+        width: 115%;
+        height: 407px;
+        top: -29px;
+    }
+
+    .tt {
+        position: absolute;
+        width: 150%;
+        height: 243px;
+        top: 135px;
+        z-index: 1;
+    }
+
+}
