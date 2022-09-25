@@ -13,7 +13,7 @@ html, body {
 }
 
 nav{
-    background-image: url("img/bg.png");
+    background-image: url("../img/bg.png");
     padding-bottom: 0;
 }
 
