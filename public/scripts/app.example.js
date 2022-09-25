@@ -37,6 +37,7 @@ class App {
     const dateValue = this.filterByDate.value
     const timeValue = this.filterByTime.value
     const capacityValue = this.filterByCapacity.value
+    const epochTime = newDateTime.getTime();
     console.log(dateValue, timeValue, capacityValue)
     const dateTime = new Date(`${dateValue} ${timeValue}`);
     if (dateTime == 'Invalid Date') {
@@ -46,7 +47,7 @@ class App {
       alert('Harap masukan jumlah penumpang!');
       return;
     } else {
-      return Car.list.filter((car) => car.capacity >= capacityValue && car.availableAt >= dateTime);
+      return Car.list.filter((car) => car.capacity >= capacityValue && car.availableAt >= dateTime && car.available === true && car.availableAt >= epochTime)
     }
   }
 
